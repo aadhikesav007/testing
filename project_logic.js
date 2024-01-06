@@ -1,4 +1,4 @@
-// Update for 2024-01-06T03:00:00+00:00 - Task ID: 3
-const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
+// Update for 2024-01-06T04:00:00+00:00 - Task ID: 4
+const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
 
 export default {};
