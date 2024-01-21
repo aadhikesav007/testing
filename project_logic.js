@@ -1,4 +1,4 @@
-// Update for 2024-01-21T01:00:00+00:00 - Task ID: 1
-const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
+// Update for 2024-01-21T02:00:00+00:00 - Task ID: 2
+const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
 
 export default {};
