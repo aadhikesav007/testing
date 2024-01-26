@@ -1,4 +1,4 @@
-// Update for 2024-01-26T05:00:00+00:00 - Task ID: 5
-const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
+// Update for 2024-01-26T06:00:00+00:00 - Task ID: 6
+const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
 
 export default {};
