@@ -1,4 +1,4 @@
-// Update for 2024-01-30T06:00:00+00:00 - Task ID: 6
-const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
+// Update for 2024-01-30T07:00:00+00:00 - Task ID: 7
+const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
 
 export default {};
