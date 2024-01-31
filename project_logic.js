@@ -1,4 +1,4 @@
-// Update for 2024-01-31T03:00:00+00:00 - Task ID: 3
+// Update for 2024-01-31T04:00:00+00:00 - Task ID: 4
 const filterActiveUsers = (users) => users.filter(user => user.isActive);
 
 export default {};
