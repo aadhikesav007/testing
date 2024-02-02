@@ -1,4 +1,4 @@
-// Update for 2024-02-02T07:00:00+00:00 - Task ID: 7
-const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
+// Update for 2024-02-02T08:00:00+00:00 - Task ID: 8
+const filterActiveUsers = (users) => users.filter(user => user.isActive);
 
 export default {};
