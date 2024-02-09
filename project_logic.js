@@ -1,4 +1,4 @@
-// Update for 2024-02-08T09:00:00+00:00 - Task ID: 9
-const sortItems = (items) => items.sort((a, b) => a.value - b.value);
+// Update for 2024-02-09T00:00:00+00:00 - Task ID: 0
+const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
 
 export default {};
