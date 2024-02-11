@@ -1,4 +1,4 @@
-// Update for 2024-02-11T03:00:00+00:00 - Task ID: 3
-const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
+// Update for 2024-02-11T04:00:00+00:00 - Task ID: 4
+const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
 
 export default {};
