@@ -1,4 +1,4 @@
-// Update for 2024-02-14T09:00:00+00:00 - Task ID: 9
-const filterActiveUsers = (users) => users.filter(user => user.isActive);
+// Update for 2024-02-15T00:00:00+00:00 - Task ID: 0
+const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
 
 export default {};
