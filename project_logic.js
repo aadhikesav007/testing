@@ -1,4 +1,4 @@
-// Update for 2024-03-06T08:00:00+00:00 - Task ID: 8
-const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
+// Update for 2024-03-06T09:00:00+00:00 - Task ID: 9
+const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
 
 export default {};
