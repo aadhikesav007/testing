@@ -1,4 +1,4 @@
-// Update for 2024-03-30T02:00:00+00:00 - Task ID: 2
-const sortItems = (items) => items.sort((a, b) => a.value - b.value);
+// Update for 2024-03-30T03:00:00+00:00 - Task ID: 3
+const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
 
 export default {};
