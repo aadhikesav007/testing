@@ -1,4 +1,4 @@
-// Update for 2024-04-14T09:00:00+00:00 - Task ID: 9
-const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
+// Update for 2024-04-15T00:00:00+00:00 - Task ID: 0
+const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 export default {};
