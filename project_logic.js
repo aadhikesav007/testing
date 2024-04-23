@@ -1,4 +1,4 @@
-// Update for 2024-04-23T05:00:00+00:00 - Task ID: 5
-const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
+// Update for 2024-04-23T06:00:00+00:00 - Task ID: 6
+const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
 
 export default {};
