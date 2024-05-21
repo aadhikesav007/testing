@@ -1,4 +1,4 @@
-// Update for 2024-05-21T06:00:00+00:00 - Task ID: 6
-const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
+// Update for 2024-05-21T07:00:00+00:00 - Task ID: 7
+const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
 
 export default {};
