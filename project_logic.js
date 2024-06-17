@@ -1,4 +1,4 @@
-// Update for 2024-06-16T09:00:00+00:00 - Task ID: 9
-const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
+// Update for 2024-06-17T00:00:00+00:00 - Task ID: 0
+const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 export default {};
