@@ -1,4 +1,4 @@
-// Update for 2024-06-24T07:00:00+00:00 - Task ID: 7
-const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
+// Update for 2024-06-24T08:00:00+00:00 - Task ID: 8
+const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
 
 export default {};
