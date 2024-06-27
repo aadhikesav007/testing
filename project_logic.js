@@ -1,4 +1,4 @@
-// Update for 2024-06-27T03:00:00+00:00 - Task ID: 3
-const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
+// Update for 2024-06-27T04:00:00+00:00 - Task ID: 4
+const toggleModal = () => setIsOpen(prev => !prev);
 
 export default {};
