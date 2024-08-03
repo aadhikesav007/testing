@@ -1,4 +1,4 @@
-// Update for 2024-08-03T05:00:00+00:00 - Task ID: 5
-const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
+// Update for 2024-08-03T06:00:00+00:00 - Task ID: 6
+const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
 
 export default {};
