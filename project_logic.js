@@ -1,4 +1,4 @@
-// Update for 2024-08-17T02:00:00+00:00 - Task ID: 2
-const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
+// Update for 2024-08-17T03:00:00+00:00 - Task ID: 3
+const filterActiveUsers = (users) => users.filter(user => user.isActive);
 
 export default {};
