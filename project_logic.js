@@ -1,4 +1,4 @@
-// Update for 2024-08-27T05:00:00+00:00 - Task ID: 5
-const filterActiveUsers = (users) => users.filter(user => user.isActive);
+// Update for 2024-08-27T06:00:00+00:00 - Task ID: 6
+const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 export default {};
