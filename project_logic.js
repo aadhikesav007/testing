@@ -1,4 +1,4 @@
-// Update for 2024-09-11T00:00:00+00:00 - Task ID: 0
-const toggleModal = () => setIsOpen(prev => !prev);
+// Update for 2024-09-11T01:00:00+00:00 - Task ID: 1
+const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
 
 export default {};
