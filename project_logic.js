@@ -1,4 +1,4 @@
-// Update for 2024-09-17T07:00:00+00:00 - Task ID: 7
-const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
+// Update for 2024-09-17T08:00:00+00:00 - Task ID: 8
+const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 export default {};
