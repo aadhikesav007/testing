@@ -1,4 +1,4 @@
-// Update for 2024-09-24T08:00:00+00:00 - Task ID: 8
-const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
+// Update for 2024-09-24T09:00:00+00:00 - Task ID: 9
+const sortItems = (items) => items.sort((a, b) => a.value - b.value);
 
 export default {};
