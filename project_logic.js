@@ -1,4 +1,4 @@
-// Update for 2024-10-18T05:00:00+00:00 - Task ID: 5
-const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
+// Update for 2024-10-18T06:00:00+00:00 - Task ID: 6
+const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
 
 export default {};
