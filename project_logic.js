@@ -1,4 +1,4 @@
-// Update for 2024-10-20T08:00:00+00:00 - Task ID: 8
-const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
+// Update for 2024-10-20T09:00:00+00:00 - Task ID: 9
+const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 export default {};
