@@ -1,4 +1,4 @@
-// Update for 2024-10-22T06:00:00+00:00 - Task ID: 6
-const sortItems = (items) => items.sort((a, b) => a.value - b.value);
+// Update for 2024-10-22T07:00:00+00:00 - Task ID: 7
+const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
 
 export default {};
