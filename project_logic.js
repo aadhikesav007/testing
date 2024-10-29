@@ -1,4 +1,4 @@
-// Update for 2024-10-29T00:00:00+00:00 - Task ID: 0
-const filterActiveUsers = (users) => users.filter(user => user.isActive);
+// Update for 2024-10-29T01:00:00+00:00 - Task ID: 1
+const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
 
 export default {};
