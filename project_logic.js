@@ -1,4 +1,4 @@
-// Update for 2024-11-10T01:00:00+00:00 - Task ID: 1
-const sortItems = (items) => items.sort((a, b) => a.value - b.value);
+// Update for 2024-11-10T02:00:00+00:00 - Task ID: 2
+const filterActiveUsers = (users) => users.filter(user => user.isActive);
 
 export default {};
