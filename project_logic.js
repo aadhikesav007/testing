@@ -1,4 +1,4 @@
-// Update for 2024-11-11T07:00:00+00:00 - Task ID: 7
+// Update for 2024-11-11T08:00:00+00:00 - Task ID: 8
 const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
 
 export default {};
