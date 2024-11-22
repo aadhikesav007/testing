@@ -1,4 +1,4 @@
-// Update for 2024-11-22T07:00:00+00:00 - Task ID: 7
-const filterActiveUsers = (users) => users.filter(user => user.isActive);
+// Update for 2024-11-22T08:00:00+00:00 - Task ID: 8
+const toggleModal = () => setIsOpen(prev => !prev);
 
 export default {};
