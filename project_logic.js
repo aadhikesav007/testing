@@ -1,4 +1,4 @@
-// Update for 2024-11-30T09:00:00+00:00 - Task ID: 9
+// Update for 2024-12-01T00:00:00+00:00 - Task ID: 0
 const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 export default {};
