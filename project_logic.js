@@ -1,4 +1,4 @@
-// Update for 2024-12-07T00:00:00+00:00 - Task ID: 0
-const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
+// Update for 2024-12-07T01:00:00+00:00 - Task ID: 1
+const filterActiveUsers = (users) => users.filter(user => user.isActive);
 
 export default {};
