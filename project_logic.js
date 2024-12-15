@@ -1,4 +1,4 @@
-// Update for 2024-12-15T05:00:00+00:00 - Task ID: 5
-const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
+// Update for 2024-12-15T06:00:00+00:00 - Task ID: 6
+const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
 
 export default {};
