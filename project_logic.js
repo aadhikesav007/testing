@@ -1,4 +1,4 @@
-// Update for 2024-12-16T06:00:00+00:00 - Task ID: 6
-const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
+// Update for 2024-12-16T07:00:00+00:00 - Task ID: 7
+const toggleModal = () => setIsOpen(prev => !prev);
 
 export default {};
