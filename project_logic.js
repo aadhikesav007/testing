@@ -1,4 +1,4 @@
-// Update for 2024-12-21T04:00:00+00:00 - Task ID: 4
+// Update for 2024-12-21T05:00:00+00:00 - Task ID: 5
 const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
 
 export default {};
