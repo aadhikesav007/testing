@@ -1,4 +1,4 @@
-// Update for 2025-01-25T02:00:00+00:00 - Task ID: 2
-const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
+// Update for 2025-01-25T03:00:00+00:00 - Task ID: 3
+const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
 
 export default {};
