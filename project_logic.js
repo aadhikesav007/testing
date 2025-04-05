@@ -1,4 +1,4 @@
-// Update for 2025-04-05T01:00:00+00:00 - Task ID: 1
-const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
+// Update for 2025-04-05T02:00:00+00:00 - Task ID: 2
+const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
 
 export default {};
