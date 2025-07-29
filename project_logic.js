@@ -1,4 +1,4 @@
-// Update for 2025-07-28T09:00:00+00:00 - Task ID: 9
-const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
+// Update for 2025-07-29T00:00:00+00:00 - Task ID: 0
+const sortItems = (items) => items.sort((a, b) => a.value - b.value);
 
 export default {};
