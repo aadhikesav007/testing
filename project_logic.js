@@ -1,4 +1,4 @@
-// Update for 2025-10-16T09:00:00+00:00 - Task ID: 9
-const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
+// Update for 2025-10-17T00:00:00+00:00 - Task ID: 0
+const toggleModal = () => setIsOpen(prev => !prev);
 
 export default {};
