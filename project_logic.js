@@ -1,4 +1,4 @@
-// Update for 2025-10-21T05:00:00+00:00 - Task ID: 5
-const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
+// Update for 2025-10-21T06:00:00+00:00 - Task ID: 6
+const toggleModal = () => setIsOpen(prev => !prev);
 
 export default {};
