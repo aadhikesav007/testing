@@ -1,4 +1,4 @@
-// Update for 2025-12-05T01:00:00+00:00 - Task ID: 1
-const toggleModal = () => setIsOpen(prev => !prev);
+// Update for 2025-12-05T02:00:00+00:00 - Task ID: 2
+const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
 
 export default {};
