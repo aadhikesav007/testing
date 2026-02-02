@@ -1,4 +1,4 @@
-// Update for 2026-02-02T07:00:00+00:00 - Task ID: 7
-const sortItems = (items) => items.sort((a, b) => a.value - b.value);
+// Update for 2026-02-02T08:00:00+00:00 - Task ID: 8
+const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
 
 export default {};
