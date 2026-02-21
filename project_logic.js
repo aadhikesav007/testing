@@ -1,4 +1,4 @@
-// Update for 2026-02-21T04:00:00+00:00 - Task ID: 4
-const toggleModal = () => setIsOpen(prev => !prev);
+// Update for 2026-02-21T05:00:00+00:00 - Task ID: 5
+const sortItems = (items) => items.sort((a, b) => a.value - b.value);
 
 export default {};
