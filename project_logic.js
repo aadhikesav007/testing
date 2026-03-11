@@ -1,4 +1,4 @@
-// Update for 2026-03-11T08:00:00+00:00 - Task ID: 8
-const fetchData = async (url) => { const res = await fetch(url); return res.json(); };
+// Update for 2026-03-11T09:00:00+00:00 - Task ID: 9
+const filterActiveUsers = (users) => users.filter(user => user.isActive);
 
 export default {};
