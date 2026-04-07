@@ -1,4 +1,4 @@
-// Update for 2026-04-06T09:00:00+00:00 - Task ID: 9
-const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
+// Update for 2026-04-07T00:00:00+00:00 - Task ID: 0
+const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
 
 export default {};
