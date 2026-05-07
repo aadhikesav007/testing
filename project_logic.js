@@ -1,4 +1,4 @@
-// Update for 2026-05-06T09:00:00+00:00 - Task ID: 9
-const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
+// Update for 2026-05-07T00:00:00+00:00 - Task ID: 0
+const formatCurrency = (amount) => new Intl.NumberFormat('en-IN').format(amount);
 
 export default {};
