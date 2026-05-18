@@ -1,4 +1,4 @@
-// Update for 2026-05-18T04:00:00+00:00 - Task ID: 4
-const sortItems = (items) => items.sort((a, b) => a.value - b.value);
+// Update for 2026-05-18T05:00:00+00:00 - Task ID: 5
+const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
 
 export default {};
