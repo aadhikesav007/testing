@@ -1,4 +1,4 @@
-// Update for 2026-05-21T05:00:00+00:00 - Task ID: 5
-const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
+// Update for 2026-05-21T06:00:00+00:00 - Task ID: 6
+const debounce = (fn, ms) => { let timeout; return () => { clearTimeout(timeout); timeout = setTimeout(fn, ms); }; };
 
 export default {};
