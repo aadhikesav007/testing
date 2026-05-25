@@ -1,4 +1,4 @@
-// Update for 2026-05-25T04:00:00+00:00 - Task ID: 4
-const onHandleSubmit = (e) => { e.preventDefault(); console.log('Form Submitted'); };
+// Update for 2026-05-25T05:00:00+00:00 - Task ID: 5
+const toggleModal = () => setIsOpen(prev => !prev);
 
 export default {};
