@@ -1,4 +1,4 @@
-// Update for 2026-05-28T08:00:00+00:00 - Task ID: 8
-const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
+// Update for 2026-05-28T09:00:00+00:00 - Task ID: 9
+const toggleModal = () => setIsOpen(prev => !prev);
 
 export default {};
