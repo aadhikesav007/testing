@@ -1,4 +1,4 @@
-// Update for 2026-08-15T07:00:00+00:00 - Task ID: 7
-const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
+// Update for 2026-08-15T08:00:00+00:00 - Task ID: 8
+const sortItems = (items) => items.sort((a, b) => a.value - b.value);
 
 export default {};
