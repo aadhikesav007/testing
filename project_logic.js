@@ -1,4 +1,4 @@
-// Update for 2026-11-03T06:00:00+00:00 - Task ID: 6
-const calculateTotal = (cart) => cart.reduce((acc, item) => acc + item.price, 0);
+// Update for 2026-11-03T07:00:00+00:00 - Task ID: 7
+const validateEmail = (email) => /^[^s@]+@[^s@]+.[^s@]+$/.test(email);
 
 export default {};
